@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "Assets/css/external.css">
+        <link href = "https://fonts.googleapis.com/css?family=Montserrat:400,800" rel = "stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+    </head>
+
+    <body>
+
+        <div class = "header">
+            <div class = "inner-header">
+                <div class = "logo-container">
+                    <h1>Last.<span>FM</span></h1>
+                </div>
+                
+                
+                <ul class = "navigation">
+                    <a href = "index.html"><li>Index</li></a>
+                    <a href = "contact.html"><li>Contact</li></a>
+                </ul>
+
+            </div>
+            <div class = "header-background"></div>
+            <div class = "avatar-container">
+
+                <img src = "Assets/img/pfp.jpg" alt = "Avatar Image" class = "avatar">
+                <h1 class = "username">scotms2</h1>
+            </div>
+        </div>
+
+        <div class="contactContainer box">
+            <form action="https://web-one-form.herokuapp.com/">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+    </body>
+</html>

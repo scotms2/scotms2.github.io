@@ -1,0 +1,195 @@
+{
+    "recent-tracks" : [
+        {
+            "album-image-url" : "https://images.genius.com/b45e12a0f67fc3eebbef1b251287e7d7.500x500x1.jpg",
+            "song-name" : "Broken",
+            "artist-name" : "Lund",
+            "time" : "5 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://media.pitchfork.com/photos/5d3f60257943ca0008c1504f/1:1/w_600/950898.jpg",
+            "song-name" : "I Was Sad Last Night I'm OK Now",
+            "artist-name" : "Tobi Lou",
+            "time" : "9 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://media.pitchfork.com/photos/5d3f60257943ca0008c1504f/1:1/w_600/950898.jpg",
+            "song-name" : "Berlin/Westside",
+            "artist-name" : "Tobi Lou",
+            "time" : "15 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://images.genius.com/ae551f0e7d082f6fbb2826d365d6e412.1000x1000x1.png",
+            "song-name" : "Uncle Iroh",
+            "artist-name" : "Tobi Lou",
+            "time" : "18 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://m.media-amazon.com/images/I/814NdOpB-0L._SS500_.jpg",
+            "song-name" : "Game Ova",
+            "artist-name" : "Tobi Lou",
+            "time" : "22 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://e.snmc.io/i/600/w/ac7077a3a7ef159037c0fa6ecd69637b/7802444",
+            "song-name" : "Blueberry Faygo",
+            "artist-name" : "Lil Mosey",
+            "time" : "25 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://images.genius.com/b126a55ad535b198f61803616d52f0e1.1000x1000x1.jpg",
+            "song-name" : "Hot Girl Bummer",
+            "artist-name" : "Blackbear",
+            "time" : "28 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://i.pinimg.com/originals/d3/8e/14/d38e14cbe8ffee010716960d9faab4d6.jpg",
+            "song-name" : "Idfc",
+            "artist-name" : "Blackbear",
+            "time" : "32 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://media.pitchfork.com/photos/5d7285360db1d10008f1fa96/1:1/w_600/weloveyoutecca_tecca.jpeg",
+            "song-name" : "Ransom",
+            "artist-name" : "Lil Tecca",
+            "time" : "34 minutes ago"
+        },
+
+        {
+            "album-image-url" : "https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png",
+            "song-name" : "Godzilla (feat. Juice WRLD)",
+            "artist-name" : "Eminem, Juice WRLD",
+            "time" : "38 minutes ago"
+        }
+    ],
+
+    "top-artist": [
+        {
+            "artist-name": "Tobi Lou",
+            "total-plays": "1,094",
+            "artist-image-url": "https://i.scdn.co/image/7d1275ccaea7de05b24d51e45e7ef0a757b9757d"
+        },
+
+        {
+            "artist-name": "Eminem",
+            "total-plays": "874",
+            "artist-image-url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB12YGBB.img?h=0&w=720&m=6&q=60&u=t&o=f&l=f&x=675&y=418"
+        },
+
+        {
+            "artist-name": "Blackbear",
+            "total-plays": "803",
+            "artist-image-url": "https://pbs.twimg.com/profile_images/1219014053843984384/uKcH5LLm_400x400.jpg"
+        },
+
+        {
+            "artist-name": "Lund",
+            "total-plays": "666",
+            "artist-image-url": "https://images.roughtrade.com/events/features/000/003/474/image/399-1.jpg?1568133060"
+        },
+        
+        {
+            "artist-name": "Lil Mosey",
+            "total-plays": "503",
+            "artist-image-url": "https://dynamicmedia.livenationinternational.com/Media/s/b/i/9bbe01ae-74fc-4d46-84a4-6efb7713c2c9.jpg"
+        },
+
+        {
+            "artist-name": "Desiigner",
+            "total-plays": "432",
+            "artist-image-url": "https://s3-us-west-1.amazonaws.com/static-spin-com/files/2017/04/desiignersongs-1491499414-828x536.jpg"
+        },
+
+        {
+            "artist-name": "The 1975",
+            "total-plays": "432",
+            "artist-image-url": "https://3w8dlo2orf8y3crtc22sslbh-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/the-1975-large.jpg"
+        },
+
+        {
+            "artist-name": "Rag'n'Bone Man",
+            "total-plays": "402",
+            "artist-image-url": "https://www.ragnboneman.com/wp-content/themes/ragnboneman/assets/img/ragsold.jpg"
+        }
+    ],
+
+    "top-tracks" : [
+        {
+            "song-name" : "Broken",
+            "artist-name" : "Lund",
+            "album-image-url" : "https://images.genius.com/b45e12a0f67fc3eebbef1b251287e7d7.500x500x1.jpg",
+            "total-plays" : "666 Plays"
+        },
+
+        {
+            "song-name" : "Berlin/Westside",
+            "artist-name" : "Tobi Lou",
+            "album-image-url" : "https://media.pitchfork.com/photos/5d3f60257943ca0008c1504f/1:1/w_600/950898.jpg",
+            "total-plays" : "601 Plays"
+        },
+
+        {
+            "song-name" : "Uncle Iroh",
+            "artist-name" : "Tobi Lou",
+            "album-image-url" : "https://images.genius.com/ae551f0e7d082f6fbb2826d365d6e412.1000x1000x1.png",
+            "total-plays" : "552 Plays"
+        },
+
+        {
+            "song-name" : "Blueberry Faygo",
+            "artist-name" : "Lil Mosey",
+            "album-image-url" : "https://e.snmc.io/i/600/w/ac7077a3a7ef159037c0fa6ecd69637b/7802444",
+            "total-plays" : "503 Plays"
+        },
+
+        {
+            "song-name" : "Rap God",
+            "artist-name" : "Eminem",
+            "album-image-url" : "https://upload.wikimedia.org/wikipedia/en/8/87/The_Marshall_Mathers_LP_2.png",
+            "total-plays" : "474 Plays"
+        },
+
+        {
+            "song-name" : "Hot Girl Bummer",
+            "artist-name" : "Blackbear",
+            "album-image-url" : "https://images.genius.com/b126a55ad535b198f61803616d52f0e1.1000x1000x1.jpg",
+            "total-plays" : "415 Plays"
+        },
+
+        {
+            "song-name" : "Panda",
+            "artist-name" : "Desiigner",
+            "album-image-url" : "https://upload.wikimedia.org/wikipedia/en/a/ab/DesiignerNewEnglish.jpg",
+            "total-plays" : "367 Plays"
+        },
+
+        {
+            "song-name" : "Collard Greens",
+            "artist-name" : "ScHoolboy Q, Kendrick Lamar",
+            "album-image-url" : "https://img.discogs.com/qyD_vaU7UlsAFu7EKTE84SjpdtI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-5592519-1525439485-9636.jpeg.jpg",
+            "total-plays" : "325 Plays"
+        },
+
+        {
+            "song-name" : "Somebody Else",
+            "artist-name" : "The 1975",
+            "album-image-url" : "https://upload.wikimedia.org/wikipedia/en/9/91/The_1975_-_I_Like_It_When_You_Sleep%2C_for_You_Are_So_Beautiful_Yet_So_Unaware_of_It.png",
+            "total-plays" : "288 Plays"
+        },
+
+        {
+            "song-name" : "Human",
+            "artist-name" : "Rag'n'Bone Man",
+            "album-image-url" : "https://upload.wikimedia.org/wikipedia/en/0/0d/Rag%27n%27Bone_Man_-_Human.jpg",
+            "total-plays" : "246 Plays"
+        }
+    ]
+}

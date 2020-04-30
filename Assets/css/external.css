@@ -1,0 +1,437 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header
+{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner-header
+{
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-container
+{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo-container h1
+{
+  color: red;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.logo-container h1 span
+{
+  font-weight: 800;
+}
+
+.header-background
+{
+  background-image: url("https://djbooth.net/.image/t_share/MTU3NjMxNDU5MjgzMTgzNDk5/tobi-lou-and-the-juice-ep-review-tobi-upclose.jpg");
+  height: 220px;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+.navigation
+{
+  float: right;
+  height: 100%;
+}
+
+.navigation a
+{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child
+{
+  padding: 0;
+}
+
+.navigation a li
+{
+  display: table-cell;
+  vertical-align: middle;
+  color: red;
+  height: 100%;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+.avatar
+{
+  width: 160px;
+  height: 160px;
+  position: relative;
+  margin-left: 5px;
+  border-radius: 100%;
+}
+
+.username
+{
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  position: relative;
+  align-self: center;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column{ width:100% }
+
+@media screen and (min-width: 600px) {
+  /* For tablets: */
+  .column { width: 50% }  
+}
+
+@media screen and (min-width: 1024px) {
+  /* For desktop: */
+  .column { width: 33.333% }  
+}
+
+/* FlexBox */
+.box{ padding-top:228px;}
+
+.flexible{ display:flex; height:300px; width:400px;}
+
+.centered{ justify-content:center;align-items:center }
+.spacebetween{ justify-content:space-between;align-items:baseline }
+.baseline{ align-self:baseline }
+.push-right{ margin-left:auto }
+.stretch{ width:100% }
+.wrap{ flex-wrap:wrap }
+.bottom{ align-self: flex-end }
+
+/* Horizontal Flexbopx */
+.container {
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .item { height: 14%; }
+  .item-1 { width: 40%; }
+  .item-2 { width: 50%; }
+  .item-3 { width: 60%; }
+  .item-4 { width: 20%; }
+  .item-5 { width: 30%; }
+
+
+  /* Contact form CSS */
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: darkslategray;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactContainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .contactContainer label
+  {
+    font-family: 'Montserrat';
+    font-size: 16px;
+  }
+
+  .contactContainer input
+  {
+    font-family: 'Montserrat';
+    font-size: 16px;
+  }
+
+  .avatar-container {
+    padding-left: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    display: table;
+  }
+
+  /* Comment Section CSS */
+  .commentContainer
+  {
+    width: 800px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+  }
+
+  .commentContainer h2
+  {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  textarea
+  {
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s;
+  }
+
+  input[type = "submit"], button
+  {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  input[type = "submit"]
+  {
+    color: white;
+    background-color: #101010;
+  }
+
+  button
+  {
+    color: #333;
+    background-color: transparent;
+  }
+
+  /* Recent and Top Tracks CSS */
+  .tracksContainer
+  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 650px;
+  }
+
+  .tracksRow
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .recentList
+  {
+    position: absolute;
+    width: 600px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .recentList li
+  {
+    display: flex;
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: .5s;
+    border: 1px solid black;
+  }
+
+  .album
+  {
+    width: 50px;
+    height: 45px;
+  }
+
+  .recentList li span:nth-child(1)
+  {
+    width: 30px;
+  }
+
+  .recentList li span:nth-child(2)
+  {
+    width: 70px;
+  }
+
+  .recentList li span:nth-child(3)
+  {
+    width: 200px;
+  }
+
+  .recentList li span:nth-child(4)
+  {
+    width: 100px;
+    text-align: right;
+  }
+
+  .recentList li span:nth-child(5)
+  {
+    width: 150px;
+    text-align: right;
+  }
+
+  .recentList li:hover
+  {
+    transform: scale(1.06)
+  }
+
+  .topList
+  {
+    position: absolute;
+    width: 600px;
+    margin: 100px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .topList li
+  {
+    display: flex;
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: .5s;
+    border: 1px solid black;
+  }
+
+  .topList li span:nth-child(1)
+  {
+    width: 30px;
+  }
+
+  .topList li span:nth-child(2)
+  {
+    width: 70px;
+  }
+
+  .topList li span:nth-child(3)
+  {
+    width: 200px;
+  }
+
+  .topList li span:nth-child(4)
+  {
+    width: 100px;
+    text-align: right;
+  }
+
+  .topList li span:nth-child(5)
+  {
+    width: 150px;
+    text-align: right;
+  }
+
+  .talbum
+  {
+    width: 50px;
+    height: 45px;
+  }
+
+  .topList li:hover
+  {
+    transform: scale(1.06)
+  }
+
+  /* Grid CSS */
+  .gridRow
+  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-right: 700px;
+    justify-content: center;
+  }
+
+  .gridColumn
+  {
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .gridImgContainer
+  {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin-top: 8px;
+    vertical-align: middle;
+    align-items: flex-end;
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+  }
+
+  .gridImgContainer:hover
+  {
+    transform: scale(1.06);
+  }
+
+  .gridTextContainer
+  {
+    flex: 100%;
+    word-wrap: break-word;
+  }
+  
+  .gridText
+  {
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
