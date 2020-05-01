@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 
+/* Header and Navbar CSS */
 .header
 {
   width: 100%;
@@ -86,6 +87,7 @@
   font-size: 16px;
 }
 
+/* Avatar CSS */
 .avatar
 {
   width: 160px;
@@ -109,16 +111,17 @@
   flex-direction: column;
 }
 
-.column{ width:100% }
-
-@media screen and (min-width: 600px) {
-  /* For tablets: */
-  .column { width: 50% }  
+.title
+{
+  margin-left: 400px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 80px;
 }
 
-@media screen and (min-width: 1024px) {
-  /* For desktop: */
-  .column { width: 33.333% }  
+.title span
+{
+  margin-right: 1000px;
 }
 
 /* FlexBox */
@@ -134,33 +137,17 @@
 .wrap{ flex-wrap:wrap }
 .bottom{ align-self: flex-end }
 
-/* Horizontal Flexbopx */
-.container {
-    display: flex;
-    height: 300px;
-    justify-content: space-between;
-    flex-direction: column;
-  }
-  
-  .item { height: 14%; }
-  .item-1 { width: 40%; }
-  .item-2 { width: 50%; }
-  .item-3 { width: 60%; }
-  .item-4 { width: 20%; }
-  .item-5 { width: 30%; }
-
-
   /* Contact form CSS */
-  /* Style inputs with type="text", select elements and textareas */
+  /* Style inputs with type="text", select elements and textareas */          /* https://www.w3schools.com/howto/howto_css_contact_form.asp */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
   }
   
   /* Style the submit button with a specific background color etc */
@@ -178,7 +165,7 @@ input[type=text], select, textarea {
     background-color: darkslategray;
   }
   
-  /* Add a background color and some padding around the form */
+  
   .contactContainer {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -214,6 +201,7 @@ input[type=text], select, textarea {
     width: 800px;
     border: 2px solid #333;
     padding: 15px 10px;
+    margin-left: 350px;
   }
 
   .commentContainer h2
@@ -258,6 +246,12 @@ input[type=text], select, textarea {
     background-color: transparent;
   }
 
+  #postedComments
+  {
+    margin-top: 20px;
+    border: 4px dotted black;
+  }
+
   /* Recent and Top Tracks CSS */
   .tracksContainer
   {
@@ -265,6 +259,7 @@ input[type=text], select, textarea {
     width: 100%;
     flex-direction: column;
     padding-bottom: 650px;
+    align-content: center;
   }
 
   .tracksRow
@@ -279,8 +274,16 @@ input[type=text], select, textarea {
     position: absolute;
     width: 600px;
     margin: 100px auto 0;
+    margin-left: 400px;
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat';
   }
 
   .recentList li
@@ -288,8 +291,11 @@ input[type=text], select, textarea {
     display: flex;
     padding: 10px 20px;
     margin: 5px 0;
+    width: 580px;
     transition: .5s;
-    border: 1px solid black;
+    border: 7px solid black;
+    justify-content: space-between;
+    border-radius: 7px;
   }
 
   .album
@@ -325,9 +331,15 @@ input[type=text], select, textarea {
     text-align: right;
   }
 
+  .recentList li span:nth-child(6)
+  {
+    width: 50px;
+    text-align: right;
+  }
+
   .recentList li:hover
   {
-    transform: scale(1.06)
+    transform: scale(1.06);
   }
 
   .topList
@@ -335,8 +347,16 @@ input[type=text], select, textarea {
     position: absolute;
     width: 600px;
     margin: 100px auto 0;
+    margin-left: 400px;
     padding: 10px;
     box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat';
   }
 
   .topList li
@@ -345,7 +365,9 @@ input[type=text], select, textarea {
     padding: 10px 20px;
     margin: 5px 0;
     transition: .5s;
-    border: 1px solid black;
+    border: 7px solid black;
+    justify-content: space-between;
+    border-radius: 7px;
   }
 
   .topList li span:nth-child(1)
@@ -375,6 +397,12 @@ input[type=text], select, textarea {
     text-align: right;
   }
 
+  .topList li span:nth-child(6)
+  {
+    width: 50px;
+    text-align: right;
+  }
+
   .talbum
   {
     width: 50px;
@@ -383,7 +411,7 @@ input[type=text], select, textarea {
 
   .topList li:hover
   {
-    transform: scale(1.06)
+    transform: scale(1.06);
   }
 
   /* Grid CSS */
@@ -392,14 +420,15 @@ input[type=text], select, textarea {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    padding-right: 700px;
     justify-content: center;
+    margin-left: 300px;
+    margin-right: 400px;
   }
 
   .gridColumn
   {
+    flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
   }
 
   .gridImgContainer
@@ -426,7 +455,6 @@ input[type=text], select, textarea {
   .gridTextContainer
   {
     flex: 100%;
-    word-wrap: break-word;
   }
   
   .gridText
@@ -434,4 +462,46 @@ input[type=text], select, textarea {
     color: white;
     font-weight: bold;
     font-family: 'Montserrat';
+  }
+
+  .gridFlex
+  {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* Heart Stuff */
+
+  .loveOn
+  {
+    background: url("/Assets/img/heart1.png") no-repeat center center/cover;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+  }
+
+  .loveOff
+  {
+    background: url("/Assets/img/heart2.png") no-repeat center center/cover;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Bar Chart Code */
+
+  #barChart
+  {
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 200;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
   }

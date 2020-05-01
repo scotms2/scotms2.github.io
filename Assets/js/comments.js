@@ -1,4 +1,6 @@
 
+//Ignore this file. It was a test file only
+
 let field = document.querySelector('textarea')
 let nameField = document.querySelector('#name')
 let backUp = field.getAttribute('placeholder')

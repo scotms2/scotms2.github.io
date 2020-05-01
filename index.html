@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        
+        <!--Header and Navbar-->
         <div class = "header">
             <div class = "inner-header">
                 <div class = "logo-container">
@@ -27,9 +27,9 @@
                 <h1 class = "username">scotms2</h1>
             </div>
         </div>
-        
+        <!--Recent Tracks List-->
         <div class = "tracksContainer box">
-            <h2>Recent tracks</h2>
+            <h2 class = "title">Recent tracks</h2>
             <ul class = "recentList">
                 <li>
                     <span class = "number">1</span>
@@ -37,6 +37,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">2</span>
@@ -44,6 +45,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">3</span>
@@ -51,6 +53,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">4</span>
@@ -58,6 +61,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">5</span>
@@ -65,6 +69,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">6</span>
@@ -72,6 +77,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">7</span>
@@ -79,6 +85,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">8</span>
@@ -86,6 +93,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">9</span>
@@ -93,6 +101,7 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
                 <li>
                     <span class = "number">10</span>
@@ -100,12 +109,14 @@
                     <span class = "song"></span>
                     <span class = "artist"></span>
                     <span class = "time"></span>
+                    <span class = "loveOff"></span>
                 </li>
             </ul>
         </div>
         <br>
+        <!--Top Tracks List-->
         <div class = "tracksContainer box">
-            <h2>Top Tracks</h2>
+            <h2 class = "title">Top Tracks</h2>
             <ul class = "topList">                
             <li>
                 <span class = "number">1</span>
@@ -113,6 +124,7 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">2</span>
@@ -120,6 +132,7 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">3</span>
@@ -127,34 +140,39 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">4</span>
                 <span class = "album-img"><img class = "talbum"></span>
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
-                <span class = "topt-plays"></span>
+                <span class = "topt-plays" ></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">5</span>
                 <span class = "album-img"><img class = "talbum"></span>
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
-                <span class = "topt-plays"></span>
+                <span class = "topt-plays" "></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">6</span>
                 <span class = "album-img"><img class = "talbum"></span>
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
-                <span class = "topt-plays"></span>
+                <span class = "topt-plays" ></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">7</span>
                 <span class = "album-img"><img class = "talbum"></span>
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
-                <span class = "topt-plays"></span>
+                <span class = "topt-plays" id = "barChart"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">8</span>
@@ -162,6 +180,7 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">9</span>
@@ -169,6 +188,7 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             <li>
                 <span class = "number">10</span>
@@ -176,13 +196,15 @@
                 <span class = "topt-song"></span>
                 <span class = "topt-artist"></span>
                 <span class = "topt-plays"></span>
+                <span class = "loveOff"></span>
             </li>
             </ul>
         </div>
 
         <br>
-        <div class = "tracksContainer box">
-            <h2>Top Artists</h2>
+        <!--Top Artist Grid-->
+        <div class = "gridFlex box">
+            <h2 class = "title"><span>Top Artists</span></h2>
             <div class = "gridRow">
                 <div class = "gridColumn">
                     <div class = "gridImgContainer">
@@ -236,21 +258,23 @@
         </div>
 
         <br>
-
+        <!--Comment Box-->
         <div class="commentContainer">
             <h2>Comments</h2>
             <form>
-                <input type = "text" id = "name" name = "name" placeholder = "Write your name here...">
+                <input type = "text" id = "name" placeholder = "Write your name here...">
                 <textarea id = "comment" placeholder = "Write your comment here...."></textarea>
-                <div>
-                    <input type = "submit" value = "Post" onclick = "commentBox">
-                    <button id = "clear">Cancel</button>
-                </div>
+                
+                <input type = "submit" value = "Post" onclick = "commentBox(); return false;">
+                
             </form>
             <div id = "postedComments"></div>
         </div>
-
+        <!--Links HTML to exteranl JS file-->
         <script src="Assets/js/externalJS.js" async defer></script>
 
+        <footer>
+        
+        </footer>
     </body>
 </html>
