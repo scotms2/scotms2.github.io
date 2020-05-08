@@ -50,7 +50,7 @@
   background-image: url("https://djbooth.net/.image/t_share/MTU3NjMxNDU5MjgzMTgzNDk5/tobi-lou-and-the-juice-ep-review-tobi-upclose.jpg");
   height: 220px;
   background-size: cover;
-  display: block;
+  display: flex;
   position: absolute;
   width: 100%;
   background-repeat: no-repeat;
@@ -445,6 +445,7 @@ input[type=text], select, textarea {
     background-size: cover;
     background-position: center;
     transition: .4s;
+    overflow: auto;
   }
 
   .gridImgContainer:hover
@@ -509,39 +510,42 @@ input[type=text], select, textarea {
 
   /* Responsive stuff */
 
-  [class *= "col-"]
+  @media only screen and (max-width: 1024px)
   {
-    width: 100%;
+    .tracksContainer {width: 70%;}
   }
 
-  @media only screen and (max-width: 768px)
+  @media only screen and (max-width: 800px)
   {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .tracksContainer {width: 100%;}
   }
 
   @media only screen and (max-width: 600px)
   {
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .tracksContainer {width: 100%;}
+  }
+
+  @media only screen and (max-width: 1024px)
+  {
+    .gridFlex {width: 70%;}
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+    .gridFlex {width: 100%;}
+  }
+
+  @media only screen and (max-width: 1024px)
+  {
+    .commentContainer {width: 70%;}
+  }
+
+  @media only screen and (max-width: 600px)
+  {
+    .commentContainer {width: 100%;}
+  }
+
+  @media only screen and (max-width: 1024px)
+  {
+    .header {width: 100%;}
   }
