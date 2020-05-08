@@ -272,7 +272,7 @@ input[type=text], select, textarea {
   .recentList
   {
     position: absolute;
-    width: 600px;
+    width: 700px;
     margin: 100px auto 0;
     margin-left: 400px;
     padding: 10px;
@@ -296,6 +296,7 @@ input[type=text], select, textarea {
     border: 7px solid black;
     justify-content: space-between;
     border-radius: 7px;
+    width: 700px;
   }
 
   .album
@@ -345,7 +346,7 @@ input[type=text], select, textarea {
   .topList
   {
     position: absolute;
-    width: 600px;
+    width: 700px;
     margin: 100px auto 0;
     margin-left: 400px;
     padding: 10px;
@@ -368,6 +369,7 @@ input[type=text], select, textarea {
     border: 7px solid black;
     justify-content: space-between;
     border-radius: 7px;
+    width: 700px;
   }
 
   .topList li span:nth-child(1)
@@ -377,18 +379,18 @@ input[type=text], select, textarea {
 
   .topList li span:nth-child(2)
   {
-    width: 70px;
+    width: 90px;
   }
 
   .topList li span:nth-child(3)
   {
-    width: 200px;
+    width: 240px;
   }
 
   .topList li span:nth-child(4)
   {
-    width: 100px;
-    text-align: right;
+    width: 160px;
+    text-align: left;
   }
 
   .topList li span:nth-child(5)
@@ -495,9 +497,10 @@ input[type=text], select, textarea {
 
   /* Bar Chart Code */
 
-  #barChart
+  .barChart
   {
     justify-content: center;
+    left: 0;
     font-size: 19px;
     font-weight: 200;
     height: 50px;
@@ -506,8 +509,7 @@ input[type=text], select, textarea {
     border-radius: 10px;
     display: flex;
   }
-
-
+  
   /* Responsive stuff */
 
   @media only screen and (max-width: 1024px)
